@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="esse é o meu primeiro site, onde eu aprendo os conceitos basicos de html">
+    <meta name="keywords"
+        content="html, css, javascript, site, desenvolvimento web, programação web, conceitos basicos, estrutura de site">
+    <meta name="author" content="Rafael Ribeiro">
+    <title>MEU PRIMEIRO SITE</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        h2 {
+            color: #00bcd4;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><i>MEU PRIMEIRO SITE</i></h1>
+
+    <p>primeiro temos que entender os conceitos basicos</p>
+
+    <hr>
+    <h2><i>estrutura basica</i></h2>
+
+    <p>!doctype html ( para mostrar ao navegador que é um documento html)</p>
+
+    <p><b>html</b> ( para colocar o conteúdo do site)</p>
+
+    <p><b>head</b> ( que é a parte de configuração do site)</p>
+
+    <p><b>body</b> (que é a parte de conteúdo do site)</p>
+    <hr>
+    <p>sempre entre os conteudos temos que colocar <b>
+            <>
+        </b> para iniciar os codicos e <b>
+            <>
+        </b> com uma <b>/</b> entre os dois < para finalozalos</p>
+            <hr>
+            <h2><i><b>tags mais utilizadas</b></i></h2>
+            <br>
+            <p>o <b>P</b> é uma tag de parágrafo ou texto do site</p>
+
+            <p>tag <b>hr</b> serve para criar uma linha horizontal </p>
+
+            <p>tag <b>b</b> serve para deixar o texto em <b>negrito</b></p>
+
+            <p>tag <b>br</b> serve para criar uma quebra de linha como se fosse um paragrafo</p>
+
+            <p>tag <b>i</b> serve para deixar o texto em <i><b>itálico</b></i></p>
+
+            <p>tag <b>u</b> serve para deixar o texto <u><b>sublinhado</b></u></p>
+
+            <p>tag <b>mark</b> serve para destacar o texto com uma cor de fundo <mark><b>amarela</b></mark>, como se
+                fosse um marca texto</p>
+
+            <p>tag <b>small</b> serve para deixar o texto em tamanho <small>menor</small></p>
+
+            <p>tag <b>del</b> serve para deixar o texto <del><b>rasurado</b></del></p>
+
+            <p>tag <b>sup</b> serve para deixar o texto em <sup><b>sobrescrito</b></sup></p>
+
+            <p>tag <b>sub</b> serve para deixar o texto em <sub><b>subscrito</b></sub></p>
+
+            <P> tag <b>h1</b> é a de título principal do site, mas podem ser usadas outras t
+                ags de título (<b>h2, h3, h4, h5, h6</b>)
+
+                <br>que são usadas para organizar o conteúdo do site, sendo <b>h1</b>
+                o título mais importante e <b>h6</b> o menos importante,
+                <br>pense nelas como se fossem os títulos de um livro, onde o h1 seria o título do livro, o h2 seria o
+                título dos capítulos,
+                <br> o <b>h3</b> seria o título das seções e assim por diante. <br>
+            <p>tag <b>ul e li</b> usadas para fazer listas ou colocar em ordem as coisas <b>ex;</b>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+
+
+            </ul>
+    </p>
+    </P>
+    <hr>
+
+    <p>dica para facilitar fazer a estrutura do site</p>
+    <p>se você estiver programando em VISUAL STUDIO CODE use a tag <b>html:5</b> para fazer a estrutura basica
+        automaticamente</p>
+
+    <p>caso precise alterar o idioma do site, logo a frente do <b>html</b> inicial coloque o atributo
+        <b>lang="pt-br"</b> para português do Brasil
+    </p>
+
+    <hr>
+    <h2><i><b>elementos de citação</b></i></h2>
+
+    <p>tag abbr serve para criar uma abreviação e mostrar o texto completo quando o usuário passa o mouse sobre
+        ela <br>
+
+        <abbr title="ex: descrição para uma paravra"><b>palavra</b></abbr>
+    </p>
+
+    <p>tag <b>address</b> serve para exibir informações de contato,
+    <address> como endereço físico ou email local de residência, cidade,<br> meu.email@gmail.com</address>
+    </p>
+
+    <p>tag <b>cite</b> serve para citar uma fonte ou referência como filmes e seriados, ex: <b><cite>One
+                Piece</cite></b> tem mais de 1000 episódios <br>
+        mesmo eu colocando esta tag, não ira aparecer para as pessoas, mas o navegador reconhece como obra</p>
+
+    <p>tag <b>q</b> serve para criar uma citação curta, ex: <q>esta é uma citação curta</q></p>
+
+    <p>tag
+    <blockquote> serve para criar uma citação longa, ex: <blockquote>esta é uma citação longa</blockquote>
+        </p>
+        <hr>
+
+        <!-- vamos aprender links! -->
+        <!--muito inportante-->
+        <h2>inportante (links)</h2>
+        para colocar um link em um site, usamos a tag <b>a</b> com o atributo <b>href</b> para indicar o endereço do
+        link, ex:
+        <a href="https://www.youtube.com" target="_blank">Acessar o YouTube</a> <br>
+
+        para caso queira colocar que seu link abra em outra aba, use o atributo <b>target="_blank"</b>
+        <hr>
+        <p><a href="pag2.html">pagina 2</a></p>
+</body>
