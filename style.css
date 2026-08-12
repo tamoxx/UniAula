@@ -1,59 +1,61 @@
 .Oswald {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-    h1 {
-        font-size: 60px;
-    }
-.P {
-    background-color:#666666;
-    border-radius:  20px; ;
-    margin-top: 0px;
-    
-
+    font-weight: weight;
 }
+
+h1 {
+    font-size: 60px;
+}
+
+.P {
+    background-color: #666666;
+    border-radius: 20px;
+    margin: 20px;
+}
+
 .V {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 20vh;
     min-height: 10vh;
-    
 }
+
 .C {
-    min-width: 70vh;
-    background-color:#666666;
+    display: flex;
+    background-color: #666666;
+    height: 70vh;
     border-radius: 20px;
-    justify-content: start;
-    align-items: center;
+    justify-content: center;
     margin: 20px;
-    
+    flex-direction: column;
 }
+
 .G {
+    display: flex;
     min-height: 8vh;
     background-color: #666666;
     border-radius: 20px;
     justify-content: start;
     align-items: center;
     margin: 20px;
-    
+    height: 10vh;
 }
-.footer {
 
-}
 body {
-    background-color:#3D3D3D;
+    background-color: #3D3D3D;
     color: #0F0F0F
 }
+
 .changa-one-regular {
     font-family: "Changa One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .changa-one-regular-italic {
+}
+
+.changa-one-regular-italic {
     font-family: "Changa One", sans-serif;
     font-weight: 400;
     font-style: italic;
-  }
+}
