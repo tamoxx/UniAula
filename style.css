@@ -1,51 +1,26 @@
-.Oswald {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-}
+/* ============================= */
+/* CONFIGURAÇÕES GERAIS           */
+/* ============================= */
 
-h1 {
-    font-size: 60px;
-}
-
-.P {
-    background-color: #666666;
-    border-radius: 20px;
-    margin: 20px;
-}
-
-.V {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
-    min-height: 10vh;
-}
-
-.C {
-    display: flex;
-    background-color: #666666;
-    height: 70vh;
-    border-radius: 20px;
-    justify-content: center;
-    margin: 20px;
-    flex-direction: column;
-}
-
-.G {
-    display: flex;
-    min-height: 8vh;
-    background-color: #666666;
-    border-radius: 20px;
-    justify-content: start;
-    align-items: center;
-    margin: 20px;
-    height: 10vh;
+* {
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #3D3D3D;
-    color: #0F0F0F
+    margin: 0;
+    background-color: #333;
+    color: #0F0F0F;
+}
+
+
+/* ============================= */
+/* FONTES                         */
+/* ============================= */
+
+.Oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }
 
 .changa-one-regular {
@@ -58,4 +33,220 @@ body {
     font-family: "Changa One", sans-serif;
     font-weight: 400;
     font-style: italic;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+/* ============================= */
+/* CLASSES DAS OUTRAS PÁGINAS    */
+/* ============================= */
+
+.P {
+    background-color: #666666;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.V {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 20vh;
+    min-height: 10vh;
+}
+
+.C {
+    display: flex;
+    background-color: #666666;
+
+    min-height: 70vh;
+
+    border-radius: 20px;
+    justify-content: center;
+
+    margin: 20px;
+
+    flex-direction: column;
+}
+
+.G {
+    display: flex;
+
+    min-height: 8vh;
+    height: 10vh;
+
+    background-color: #666666;
+
+    border-radius: 20px;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 20px;
+}
+
+
+/* ============================= */
+/* PÁGINA DE FILMES              */
+/* ============================= */
+
+.cabeca {
+    display: flex;
+
+    min-height: 10vh;
+
+    background-color: #333333;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 20px;
+}
+
+
+
+
+/* área principal dos filmes */
+
+.conteiner {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 10px;
+
+    width: 100%;
+
+    padding: 5px;
+}
+
+
+/* cada coluna */
+
+.meio {
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    align-content: start;
+
+    gap: 20px;
+
+    background-color: #666666;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    min-height: 80vh;
+}
+
+
+/* ============================= */
+/* CARDS DOS FILMES              */
+/* ============================= */
+
+.filmes {
+    background-color: rgb(206, 206, 206);
+
+    padding: 10px;
+
+    border: 3px solid rgb(80, 79, 79);
+
+    border-radius: 8px;
+
+    width: 100%;
+    max-width: 315px;
+
+    height: fit-content;
+
+    margin: 0 auto;
+}
+
+
+/* imagem */
+
+.filmes img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    aspect-ratio: 290 / 429;
+
+    object-fit: cover;
+
+    border-radius: 3px;
+}
+
+
+/* título */
+
+.filmes p {
+    margin: 10px 0 0 0;
+
+    font-size: 16px;
+}
+
+
+/* ============================= */
+/* SOBRE                         */
+/* ============================= */
+
+.sobre {
+    display: flex;
+
+    background-color: #666666;
+
+    min-height: 10vh;
+
+    margin: 5px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+}
+
+
+/* ============================= */
+/* RODAPÉ                        */
+/* ============================= */
+
+.baixo {
+    display: flex;
+
+    background-color: #333333;
+
+    min-height: 10vh;
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ============================= */
+/* CELULAR                       */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    .conteiner {
+        grid-template-columns: 1fr;
+    }
+
+    .meio {
+        min-height: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+}
+#nome     {
+    color: aliceblue;
 }
