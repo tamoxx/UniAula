@@ -115,7 +115,7 @@ h1 {
 .conteiner {
     display: grid;
 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 150px minmax(0, 1fr);
 
     gap: 10px;
 
@@ -123,6 +123,7 @@ h1 {
 
     padding: 5px;
 }
+
 
 
 /* cada coluna */
@@ -140,10 +141,13 @@ h1 {
 
     border-radius: 10px;
 
-    padding: 20px;
+    padding: 20px 5px;
 
     min-height: 80vh;
+
+    min-width: 0;
 }
+
 
 
 /* ============================= */
@@ -159,57 +163,39 @@ h1 {
 
     border-radius: 8px;
 
-    width: 100%;
-    max-width: 315px;
+    width: 105px;
 
-    height: fit-content;
+    min-height: 228px;
 
     margin: 0 auto;
 }
 
-
-/* imagem */
-
 .filmes img {
     display: block;
 
-    width: 100%;
-    height: auto;
-
-    aspect-ratio: 290 / 429;
+    width: 80px;
+    height: 120px;
 
     object-fit: cover;
 
     border-radius: 3px;
+
+    margin: 0 auto;
 }
-
-
-/* título */
 
 .filmes p {
     margin: 10px 0 0 0;
 
+    font-family: Georgia, serif;
+
     font-size: 16px;
+
+    font-weight: bold;
+
+    line-height: 18px;
 }
 
 
-/* ============================= */
-/* SOBRE                         */
-/* ============================= */
-
-.sobre {
-    display: flex;
-
-    background-color: #666666;
-
-    min-height: 10vh;
-
-    margin: 5px;
-
-    padding: 20px;
-
-    border-radius: 10px;
-}
 
 
 /* ============================= */
