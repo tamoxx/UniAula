@@ -147,7 +147,7 @@ h1 {
 
     min-height: 80vh;
 
-    min-width: 100px;
+    min-width: 50vh;
 }
 
 
@@ -165,9 +165,9 @@ h1 {
 
     border-radius: 8px;
 
-    width: 105px;
+    width: 20vh;
 
-    min-height: 228px;
+    min-height: 20vh;
 
     margin: 0 auto;
 }
@@ -175,8 +175,8 @@ h1 {
 .filmes img {
     display: block;
 
-    width: 80px;
-    height: 120px;
+    width: 140px;
+    height: 200px;
 
     object-fit: cover;
 
